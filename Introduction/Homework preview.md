@@ -1,6 +1,11 @@
 ![HW 12](https://github.com/Deinail/GB-Homework/blob/origin/Introduction/HW%2012.png)
+
 ![HW 15](https://github.com/Deinail/GB-Homework/blob/origin/Introduction/HW%2015.png)
+
 ![HW 16](https://github.com/Deinail/GB-Homework/blob/origin/Introduction/HW%2016.png)
+
 ![HW 17](https://github.com/Deinail/GB-Homework/blob/origin/Introduction/HW%2017.png)
+
 ![HW 3](https://github.com/Deinail/GB-Homework/blob/origin/Introduction/HW%203.png)
+
 ![HW 6](https://github.com/Deinail/GB-Homework/blob/origin/Introduction/HW%206.png)
