@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2024-05-01T15:51:14.732Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="7al68021BucpJaNQsxfo" version="22.0.0" type="device">
+  <diagram name="Страница — 1" id="wKAKOWrDIl4LwseTfH6U">
+    <mxGraphModel dx="1687" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-1" target="vRP4fbRD7-_est_Yvoyy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-1" value="numbers = [1, 8, 3, 8, 2, 6, 8 ,8],&lt;br&gt;index = 0, count_maximal = 0,&lt;br&gt;maximum = numbers[index]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="95" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-2" target="vRP4fbRD7-_est_Yvoyy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-2" target="vRP4fbRD7-_est_Yvoyy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-2" value="While index &amp;lt; numbers.lenth" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="235" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-4" target="vRP4fbRD7-_est_Yvoyy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-4" target="vRP4fbRD7-_est_Yvoyy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-4" value="if numbers[index] == maximal&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="755" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-5" target="vRP4fbRD7-_est_Yvoyy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-5" target="vRP4fbRD7-_est_Yvoyy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-5" value="if numbers[index] &amp;gt; maximal" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="515" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-8" target="vRP4fbRD7-_est_Yvoyy-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="1045" />
+              <mxPoint x="170" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-8" value="index++" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-9" target="vRP4fbRD7-_est_Yvoyy-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="615" />
+              <mxPoint x="690" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-9" value="maximal = numbers [index],&lt;br&gt;count_maximal = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="555" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vRP4fbRD7-_est_Yvoyy-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-10" value="count_maximal++" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="795" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vRP4fbRD7-_est_Yvoyy-11" value="Print (count_maximal)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="275" width="180" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
